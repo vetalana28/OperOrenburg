@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Открой Оренбуржье</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/icons/logo/fav.svg" type="image/x-icon">
+</head>
+
+<body>
+    <header class="container">
+        <a href="index.html"><img class="header-logo" src="images/icons/logo/logo White.svg" alt=""></a>
+
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+
+        <label for="menu-toggle" class="burger" aria-label="Открыть меню">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+
+        <nav>
+            <label for="menu-toggle" class="menu-close" aria-label="Закрыть меню">
+                <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round">
+                    <path d="M4 4L20 20M20 4L4 20" />
+                </svg>
+            </label>
+
+            <a class="nav-link" href="catalog.html">Каталог</a>
+            <a class="nav-link" href="index.html#search">Достопримечательности</a>
+            <a class="nav-link" href="profile.html">Личный кабинет</a>
+            <a class="btn1" href="login.html">Войти</a>
+            <a class="btn2" href="register.html">Регистрация</a>
+        </nav>
+    </header>
+    <section id="search" class="hero">
+        <div class="hero-text container">
+            <h1>Всё самое важное — в одном поиске</h1>
+            <h3>Памятники, степные озёра и музеи региона: фотографии, описания и координаты от тех, кто здесь живёт.
+            </h3>
+
+            <div class="hero-search">
+                <input type="search" list="cats" placeholder="Введите название категории. Например: Музеи">
+
+                <datalist id="cats">
+                    <option value="Памятники архитектуры">
+                    <option value="Природные объекты">
+                    <option value="Музеи">
+                    <option value="Исторические места">
+                </datalist>
+
+                <a class="btn3" href="catalog.html">Найти</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="advantages container">
+        <div class="advantage">
+            <img src="images/icons/advantage/comfort_dowload.svg" alt="">
+            <h3>Удобная загрузка фотографий</h3>
+        </div>
+        <div class="advantage">
+            <img src="images/icons/advantage/place.svg" alt="">
+            <h3>Точные координаты<br> на карте</h3>
+        </div>
+        <div class="advantage">
+            <img src="images/icons/advantage/text.svg" alt="">
+            <h3>Подробные описания<br>от местных жителей</h3>
+        </div>
+        <div class="advantage">
+            <img src="images/icons/advantage/star.svg" alt="">
+            <h3>Актуальная информация и отзывы путешественников</h3>
+        </div>
+    </section>
+
+    <!-- popular start -->
+    <section class="container pt-160">
+        <div class="title">
+            <h2>Попурялрные достопримечательности</h2>
+            <h3>Удивительные места, вдохновляющие на новые путешествия</h3>
+        </div>
+        <div class="popular-content">
+            <div class="popular-card card1">
+
+                <div class="popular-card-img">
+                    <img src="images/popular/1.png" alt="">
+                    <a href="landmark.html" class="popular-card-btn">Подробнее →</a>
+                </div>
+
+                <div class="popular-card-content">
+                    <div class="popular-tag">Природа</div>
+                    <div class="popular-card-title">
+                        <h4>Бузулукский бор</h4>
+                        <p>Автор: Марина К.</p>
+                    </div>
+                    <div class="popular-card-mark">
+                        <div class="popular-card-mark-stars">
+                            <img src="images/icons/popular/starYellow.svg" alt="">
+                            <img src="images/icons/popular/starYellow.svg" alt="">
+                            <img src="images/icons/popular/starYellow.svg" alt="">
+                            <img src="images/icons/popular/starYellow.svg" alt="">
+                            <img src="images/icons/popular/starYellow.svg" alt="">
+                        </div>
+                        <p>(128 оценок)</p>
+                    </div>
+                    <div class="popular-card-coordinates">
+                        <p>Широта: 52.8500° с. ш.</p>
+                        <p>Долгота: 52.1000° в. д.</p>
+                    </div>
+                    <div class="popular-card-photos">
+                        <img src="images/icons/popular/camera.svg" alt="">
+                        <p>Фотографий: 14</p>
+                    </div>
+                    <div class="popular-card-place">
+                        <img src="images/icons/popular/place.svg" alt="">
+                        <p>Бузулукский район</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="popular-card card2">
+
+                <div class="popular-card-img">
+                    <img src="images/popular/2.png" alt="">
+                    <a href="landmark.html" class="popular-card-btn">Подробнее →</a>
+                </div>
+
+                <div class="popular-card-content">
+                    <div class="popular-tag">Природа</div>
+                    <div class="popular-card-title">
+                        <h4>Соляные озёра</h4>
+                        <p>Автор: Алексей П.</p>
+                    </div>
+                    <div class="popular-card-mark">
+                        <div class="popular-card-mark-stars">
+                            <img src="images/icons/popular/starYellow.svg" alt="">
+                            <img src="images/icons/popular/starYellow.svg" alt="">
+                            <img src="images/icons/popular/starYellow.svg" alt="">
+                            <img src="images/icons/popular/starYellow.svg" alt="">
+                            <img src="images/icons/popular/starYellow.svg" alt="">
+                        </div>
+                        <p>(85 оценок)</p>
+                    </div>
+                    <div class="popular-card-coordinates">
+                        <p>Широта: 59.4500° с. ш.</p>
+                        <p>Долгота: 51.2040° в. д.</p>
+                    </div>
+                    <div class="popular-card-photos">
+                        <img src="images/icons/popular/camera.svg" alt="">
+                        <p>Фотографий: 8</p>
+                    </div>
+                    <div class="popular-card-place">
+                        <img src="images/icons/popular/place.svg" alt="">
+                        <p>Соль-Илецкий округ</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="popular-card card3">
+
+                <div class="popular-card-img">
+                    <img src="images/popular/3.png" alt="">
+                    <a href="landmark.html" class="popular-card-btn">Подробнее →</a>
+                </div>
+
+                <div class="popular-card-content">
+                    <div class="popular-tag">Памятник</div>
+                    <div class="popular-card-title">
+                        <h4>Караван-Сарай</h4>
+                        <p>Автор: Андрей К.</p>
+                    </div>
+                    <div class="popular-card-mark">
+                        <div class="popular-card-mark-stars">
+                            <img src="images/icons/popular/starYellow.svg" alt="">
+                            <img src="images/icons/popular/starYellow.svg" alt="">
+                            <img src="images/icons/popular/starYellow.svg" alt="">
+                            <img src="images/icons/popular/starYellow.svg" alt="">
+                            <img src="images/icons/popular/starYellow.svg" alt="">
+                        </div>
+                        <p>(17 оценок)</p>
+                    </div>
+                    <div class="popular-card-coordinates">
+                        <p>Широта: 42.2300° с. ш.</p>
+                        <p>Долгота: 49.4000° в. д.</p>
+                    </div>
+                    <div class="popular-card-photos">
+                        <img src="images/icons/popular/camera.svg" alt="">
+                        <p>Фотографий: 25</p>
+                    </div>
+                    <div class="popular-card-place">
+                        <img src="images/icons/popular/place.svg" alt="">
+                        <p>г. Оренбург</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="popular-card card4">
+
+                <div class="popular-card-img">
+                    <img src="images/popular/4.png" alt="">
+                    <a href="landmark.html" class="popular-card-btn">Подробнее →</a>
+                </div>
+
+                <div class="popular-card-content">
+                    <div class="popular-tag">История</div>
+                    <div class="popular-card-title">
+                        <h4>Пешеходный мост</h4>
+                        <p>Автор: Карина Р.</p>
+                    </div>
+                    <div class="popular-card-mark">
+                        <div class="popular-card-mark-stars">
+                            <img src="images/icons/popular/starYellow.svg" alt="">
+                            <img src="images/icons/popular/starYellow.svg" alt="">
+                            <img src="images/icons/popular/starYellow.svg" alt="">
+                            <img src="images/icons/popular/starYellow.svg" alt="">
+                            <img src="images/icons/popular/starYellow.svg" alt="">
+                        </div>
+                        <p>(128 оценок)</p>
+                    </div>
+                    <div class="popular-card-coordinates">
+                        <p>Широта: 42.4500° с. ш.</p>
+                        <p>Долгота: 53.3000° в. д.</p>
+                    </div>
+                    <div class="popular-card-photos">
+                        <img src="images/icons/popular/camera.svg" alt="">
+                        <p>Фотографий: 18</p>
+                    </div>
+                    <div class="popular-card-place">
+                        <img src="images/icons/popular/place.svg" alt="">
+                        <p>г. Оренбург</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="popular-card card5">
+
+                <div class="popular-card-img">
+                    <img src="images/popular/5.png" alt="">
+                    <a href="landmark.html" class="popular-card-btn">Подробнее →</a>
+                </div>
+
+                <div class="popular-card-content">
+                    <div class="popular-tag">Музей</div>
+                    <div class="popular-card-title">
+                        <h4>Краеведческий музей</h4>
+                        <p>Автор: Дарья Ф.</p>
+                    </div>
+                    <div class="popular-card-mark">
+                        <div class="popular-card-mark-stars">
+                            <img src="images/icons/popular/starYellow.svg" alt="">
+                            <img src="images/icons/popular/starYellow.svg" alt="">
+                            <img src="images/icons/popular/starYellow.svg" alt="">
+                            <img src="images/icons/popular/starYellow.svg" alt="">
+                            <img src="images/icons/popular/starYellow.svg" alt="">
+                        </div>
+                        <p>(158 оценок)</p>
+                    </div>
+                    <div class="popular-card-coordinates">
+                        <p>Широта: 32.8500° с. ш.</p>
+                        <p>Долгота: 12.1000° в. д.</p>
+                    </div>
+                    <div class="popular-card-photos">
+                        <img src="images/icons/popular/camera.svg" alt="">
+                        <p>Фотографий: 11</p>
+                    </div>
+                    <div class="popular-card-place">
+                        <img src="images/icons/popular/place.svg" alt="">
+                        <p>г. Оренбург</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <div class="designArrow1"><img src="images/icons/designArrow.svg" alt=""></div>
+    <div class="designArrow2"><img src="images/icons/designArrow2.svg" alt=""></div>
+    <!-- popular end -->
+
+
+    <section class="container pt-160">
+        <div class="title">
+            <h2>Красоты оренбуржья</h2>
+            <h3>Место, где каждый уголок хранит свою историю</h3>
+        </div>
+
+        <div class="slider-wrap">
+            <input type="radio" name="r" id="r1" checked>
+            <input type="radio" name="r" id="r2">
+            <input type="radio" name="r" id="r3">
+            <input type="radio" name="r" id="r4">
+
+            <div class="slider-section">
+                <div class="slider">
+                    <div class="slide">
+                        <div class="slide-desc">
+                            <h3>Бузулукский бор</h3>
+                            <p>Один из крупнейших сосновых массивов степной зоны России.</p>
+                        </div>
+                        <img src="images/slider/1.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <div class="slide-desc">
+                            <h3>Соляные озёра</h3>
+                            <p>Солёная вода, в которой отдыхают и лечатся уже более века.</p>
+                        </div>
+                        <img src="images/slider/2.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <div class="slide-desc">
+                            <h3>Караван-Сарай</h3>
+                            <p>Историческое здание Оренбурга на берегу Урала.</p>
+                        </div>
+                        <img src="images/slider/3.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <div class="slide-desc">
+                            <h3>Мост «Европа — Азия»</h3>
+                            <p>Пешеходный мост через Урал, соединяющий два континента.</p>
+                        </div>
+                        <img src="images/slider/4.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="slider-nav">
+                <label for="r1"></label>
+                <label for="r2"></label>
+                <label for="r3"></label>
+                <label for="r4"></label>
+            </div>
+
+            <div class="slider-arrows">
+                <div class="arrows a1">
+                    <label for="r4" class="prev"><img src="images/icons/prew.svg" alt=""></label>
+                    <label for="r2" class="next"><img src="images/icons/next.svg" alt=""></label>
+                </div>
+                <div class="arrows a2">
+                    <label for="r1" class="prev"><img src="images/icons/prew.svg" alt=""></label>
+                    <label for="r3" class="next"><img src="images/icons/next.svg" alt=""></label>
+                </div>
+                <div class="arrows a3">
+                    <label for="r2" class="prev"><img src="images/icons/prew.svg" alt=""></label>
+                    <label for="r4" class="next"><img src="images/icons/next.svg" alt=""></label>
+                </div>
+                <div class="arrows a4">
+                    <label for="r3" class="prev"><img src="images/icons/prew.svg" alt=""></label>
+                    <label for="r1" class="next"><img src="images/icons/next.svg" alt=""></label>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="slider-background"></div>
+
+    <section class="container pt-160">
+        <div class="title">
+            <h2>Наши партнеры</h2>
+            <h3>Вместе мы создаём новые возможности</h3>
+        </div>
+        <div class="partners-cards">
+            <div class="partners-card">
+                <img src="images/partners/1.png" alt="">
+            </div>
+            <div class="partners-card">
+                <img src="images/partners/2.png" alt="">
+            </div>
+            <div class="partners-card">
+                <img src="images/partners/3.png" alt="">
+            </div>
+            <div class="partners-card">
+                <img src="images/partners/4.png" alt="">
+            </div>
+        </div>
+    </section>
+    <img class="designLine" src="images/icons/designLine.svg" alt="">
+    </main>
+    <div class="pt-160"></div>
+
+    <footer>
+        <div class="footer-content container">
+            <div class="footer-blocks">
+
+                <img src="images/icons/footer/nav.svg" alt="">
+                <div class="footer-text">
+                    <h3>Навигация</h3>
+                    <div class="footer-nav-blocks">
+                        <div class="footer-nav-block">
+                            <a class="nav-link" href="index.html">Главная</a>
+                            <a class="nav-link" href="index_dark.html">Главная - тёмная тема</a>
+                            <a class="nav-link" href="profile.html">Личный кабинет</a>
+                            <a class="nav-link" href="catalog.html">Каталог достопримечательностей</a>
+                        </div>
+                        <div class="footer-nav-block">
+                            <a class="nav-link" href="register.html">Регистрация</a>
+                            <a class="nav-link" href="login.html">Вход</a>
+                            <a class="nav-link" href="admin.html">Административная панель</a>
+                            <a class="nav-link" href="landmark.html">Страница достопримечательностей</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-blocks">
+                <div class="footer-block-content">
+                    <div class="footer-block">
+                        <img src="images/icons/footer/mail.svg" alt="">
+                        <div class="footer-text">
+
+                            <h3>Почта</h3>
+
+                            <div class="footer-nav-block">
+                                <a class="nav-link footer-mail"
+                                    href="mailto:info@orenlandmarks.ru">info@orenlandmarks.ru</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="footer-block">
+
+                        <img src="images/icons/footer/phone.svg" alt="">
+                        <div class="footer-text">
+                            <h3>Телефон</h3>
+
+                            <div class="footer-nav-block">
+                                <a class="nav-link" href="tel:+78007654321">8-800-765-43-21</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+    </footer>
+</body>
+
+</html>

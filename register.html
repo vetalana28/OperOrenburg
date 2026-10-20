@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/icons/logo/fav.svg" type="image/x-icon">
+</head>
+
+<body>
+
+    <body class="inner">
+        <header class="container">
+        <a href="index.html"><img class="header-logo" src="images/icons/logo/logo White.svg" alt=""></a>
+
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+
+        <label for="menu-toggle" class="burger" aria-label="Открыть меню">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+
+        <nav>
+            <label for="menu-toggle" class="menu-close" aria-label="Закрыть меню">
+                <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round">
+                    <path d="M4 4L20 20M20 4L4 20" />
+                </svg>
+            </label>
+
+            <a class="nav-link" href="catalog.html">Каталог</a>
+            <a class="nav-link" href="index.html#search">Достопримечательности</a>
+            <a class="nav-link" href="profile.html">Личный кабинет</a>
+            <a class="btn1" href="login.html">Войти</a>
+            <a class="btn2" href="register.html">Регистрация</a>
+        </nav>
+    </header>
+        <main class="container pt-160">
+            <section class="login">
+                <form action="profile.html" method="get">
+                    <h2>Регистрация</h2>
+                    <div class="field">
+                        <label for="fb-mail">E-mail</label>
+                        <input id="fb-mail" name="fb-mail" type="email" placeholder="name@mail.ru" required>
+                        <span class="msg req">Обязательное поле: укажите e-mail</span>
+                    </div>
+                    <div class="field">
+                        <label for="fb-surname">Фамилия</label>
+                        <input id="fb-surname" name="fb-surname" type="text" placeholder="Иванов" required>
+                        <span class="msg req">Обязательное поле: укажите фамилию</span>
+                    </div>
+                    <div class="field">
+                        <label for="fb-name">Имя</label>
+                        <input id="fb-name" name="fb-name" type="text" placeholder="Михаил" required>
+                        <span class="msg req">Обязательное поле: укажите имя</span>
+                    </div>
+                    <div class="field">
+                        <label for="fb-password">Пароль</label>
+                        <input id="fb-password" name="fb-password" type="password" placeholder="Минимум 8 символов"
+                            minlength=8 required>
+                        <span class="msg req">Обязательное поле: придумайте пароль</span>
+                    </div>
+                    <div class="field">
+                        <label for="fb-password-again">Повтор пароля</label>
+                        <input id="fb-password-again" name="fb-password-again" type="password"
+                            placeholder="Повторите пароль" minlength=8 required>
+                        <span class="msg req">Обязательное поле: повторите пароль</span>
+                    </div>
+
+                    <div class="field">
+                        <label for="fb-date">Дата рождения <span class="req">(Необязательно)</span></label>
+                        <input id="fb-date" name="fb-date" type="date" placeholder="Ваш пароль">
+                    </div>
+                    <div class="field">
+                        <label for="fb-phone">Номер телефона <span class="req">(Необязательно)</span></label>
+                        <input id="fb-phone" name="fb-phone" type="tel" placeholder="8 917 246 64 73">
+                    </div>
+                    <div class="field consent">
+                        <label class="check" for="fb-agree">
+                            <input id="fb-agree" type="checkbox" required>
+                            <span>Согласен на обработку персональных данных</span>
+                        </label>
+                        <span class="msg req">Обязательное поле: подтвердите согласие</span>
+                    </div>
+                    <button class="btn3" type="submit">Зарегестрироваться</button>
+
+                    <div class="form-links">
+                        <a href="login.html">Уже есть аккаунт? Войти</a>
+                    </div>
+                </form>
+
+            </section>
+        </main>
+        <div class="pt-160"></div>
+        <footer>
+            <div class="footer-content container">
+                <div class="footer-blocks">
+
+                    <img src="images/icons/footer/nav.svg" alt="">
+                    <div class="footer-text">
+                        <h3>Навигация</h3>
+                        <div class="footer-nav-blocks">
+                            <div class="footer-nav-block">
+                                <a class="nav-link" href="index.html">Главная</a>
+                                <a class="nav-link" href="index_dark.html">Главная - тёмная тема</a>
+                                <a class="nav-link" href="profile.html">Личный кабинет</a>
+                                <a class="nav-link" href="catalog.html">Каталог достопримечательностей</a>
+                            </div>
+                            <div class="footer-nav-block">
+                                <a class="nav-link" href="register.html">Регистрация</a>
+                                <a class="nav-link" href="login.html">Вход</a>
+                                <a class="nav-link" href="admin.html">Административная панель</a>
+                                <a class="nav-link" href="landmark.html">Страница достопримечательностей</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-blocks">
+                    <div class="footer-block-content">
+                        <div class="footer-block">
+                            <img src="images/icons/footer/mail.svg" alt="">
+                            <div class="footer-text">
+
+                                <h3>Почта</h3>
+
+                                <div class="footer-nav-block">
+                                    <a class="nav-link footer-mail"
+                                        href="mailto:info@orenlandmarks.ru">info@orenlandmarks.ru</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="footer-block">
+
+                            <img src="images/icons/footer/phone.svg" alt="">
+                            <div class="footer-text">
+                                <h3>Телефон</h3>
+
+                                <div class="footer-nav-block">
+                                    <a class="nav-link" href="tel:+78007654321">8-800-765-43-21</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+        </footer>
+    </body>
+
+</html>

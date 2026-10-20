@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_Слой_1" data-name="Слой_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 147.66 37.08">
+  <!-- Generator: Adobe Illustrator 30.0.0, SVG Export Plug-In . SVG Version: 2.1.1 Build 123)  -->
+  <defs>
+    <style>
+      .st0, .st1 {
+        fill: #549af7;
+      }
+
+      .st0, .st2 {
+        font-family: Gilroy-Semibold, Gilroy;
+        font-size: 18px;
+        font-weight: 600;
+      }
+
+      .st3 {
+        fill: #fff;
+      }
+
+      .st2, .st4 {
+        fill: #76d1ff;
+      }
+    </style>
+  </defs>
+  <text class="st2" transform="translate(20.3 108.51) rotate(-.17)"><tspan x="0" y="0">ткрой</tspan></text>
+  <text class="st0" transform="translate(39.73 16.33) rotate(-.17)"><tspan x="0" y="0">Открой</tspan></text>
+  <text class="st0" transform="translate(39.73 33.54) rotate(-.17)"><tspan x="0" y="0">Оренбуржье</tspan></text>
+  <text class="st2" transform="translate(106.26 108.51) rotate(-.17)"><tspan x="0" y="0">ренбург</tspan></text>
+  <circle class="st4" cx="5.38" cy="102.94" r="12.34"/>
+  <circle class="st3" cx="5.38" cy="106.01" r="10.89"/>
+  <circle class="st4" cx="91.85" cy="99.87" r="12.34"/>
+  <circle class="st3" cx="91.02" cy="96.92" r="10.89"/>
+  <circle class="st4" cx="91.02" cy="97.58" r="4.47"/>
+  <circle class="st4" cx="5.38" cy="104.34" r="4.47"/>
+  <path class="st4" d="M262.08,39.13s.84,7.02-10.4,15.92c-.31.25-1.02.79-1.94.77-.19,0-.91-.05-1.77-.77-11.31-9.4-10.57-15.92-10.57-15.92.63-5.63,5.42-12.34,12.34-12.34,6.9,0,11.67,6.68,12.34,12.34Z"/>
+  <circle class="st3" cx="249.73" cy="39.54" r="8.23"/>
+  <circle class="st4" cx="249.74" cy="38.95" r="5.05"/>
+  <path class="st1" d="M18.02,7.8c1.64,0,3.23.38,4.61,1.06V.95c-1.46-.43-3.02-.63-4.61-.63C8.06.32,0,8.38,0,18.34s8.06,18.02,18.02,18.02c1.59,0,3.15-.2,4.61-.63v-7.91c-1.39.68-2.97,1.06-4.61,1.06-5.82,0-10.53-4.71-10.53-10.53s4.71-10.53,10.53-10.53Z"/>
+  <circle class="st1" cx="18.02" cy="18.34" r="3.86"/>
+  <path class="st1" d="M34.18,36.68l-6.76-4.42V5.39c2.25-1.8,4.5-3.59,6.76-5.39"/>
+  <circle class="st3" cx="28.47" cy="18.34" r=".5"/>
+</svg>
